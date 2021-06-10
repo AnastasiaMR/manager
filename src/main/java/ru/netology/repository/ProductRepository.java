@@ -6,10 +6,10 @@ import ru.netology.domain.Smartphone;
 
 public class ProductRepository extends Product {
     private Product[] items = {
-            new Book( 1, "Book", 68, "Author" ),
-            new Book(  2, "Book", 68, "Author" ),
+            new Book(1, "Book", 68, "Author"),
+            new Book(2, "Book", 68, "Author"),
             new Smartphone(3, "Iphone", 1000, "Chine"),
-            new Smartphone(4, "Samsung", 950, "Chine" ),
+            new Smartphone(4, "Samsung", 1000, "Chine"),
     };
 
     public void save(Product item) {
